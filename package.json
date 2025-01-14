@@ -14,7 +14,7 @@
       "require": "./dist/index.cjs.js"
     }
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "keywords": [
     "json",
     "schema",
