@@ -30,8 +30,8 @@
     "lint:fix": "npm run lint:check -- --fix",
     "prebuild": "rimraf ./dist",
     "build": "vite build",
-    "development:link": "yarn link && yarn link @netcracker/qubership-apihub-json-crawl && yarn link @netcracker/qubership-apihub-graphapi && yarn link @netcracker/qubership-apihub-api-unifier && yarn link @netcracker/qubership-apihub-api-diff",
-    "development:unlink": "yarn unlink && yarn unlink @netcracker/qubership-apihub-json-crawl && yarn unlink @netcracker/qubership-apihub-graphapi && yarn unlink @netcracker/qubership-apihub-api-unifier && yarn unlink @netcracker/qubership-apihub-api-diff",
+    "development:link": "npm link && npm link @netcracker/qubership-apihub-json-crawl && npm link @netcracker/qubership-apihub-graphapi && npm link @netcracker/qubership-apihub-api-unifier && npm link @netcracker/qubership-apihub-api-diff",
+    "development:unlink": "npm unlink && npm unlink @netcracker/qubership-apihub-json-crawl && npm unlink @netcracker/qubership-apihub-graphapi && npm unlink @netcracker/qubership-apihub-api-unifier && npm unlink @netcracker/qubership-apihub-api-diff",
     "test": "jest --maxWorkers 3 --verbose",
     "test:coverage": "jest --verbose --coverage",
     "feature-start": "feature-start --featureName",
@@ -40,13 +40,13 @@
     "release-finish": "release-finish"
   },
   "dependencies": {
-    "@netcracker/qubership-apihub-json-crawl": "1.0.2",
-    "@netcracker/qubership-apihub-api-unifier": "1.0.3",
-    "@netcracker/qubership-apihub-api-diff": "1.0.3",
-    "@netcracker/qubership-apihub-graphapi": "1.0.3"
+    "@netcracker/qubership-apihub-json-crawl": "dev",
+    "@netcracker/qubership-apihub-api-unifier": "dev",
+    "@netcracker/qubership-apihub-api-diff": "dev",
+    "@netcracker/qubership-apihub-graphapi": "dev"
   },
   "devDependencies": {
-    "@netcracker/qubership-apihub-npm-gitflow": "1.0.13",
+    "@netcracker/qubership-apihub-npm-gitflow": "2.0.0",
     "@types/json-schema": "^7.0.12",
     "@types/jest": "^29.5.2",
     "@types/js-yaml": "^4.0.5",
@@ -70,6 +70,5 @@
   },
   "eslintConfig": {
     "extends": ".eslintrc.json"
-  },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  }
 }
