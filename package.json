@@ -43,10 +43,10 @@
     "@netcracker/qubership-apihub-json-crawl": "dev",
     "@netcracker/qubership-apihub-api-unifier": "dev",
     "@netcracker/qubership-apihub-api-diff": "dev",
-    "@netcracker/qubership-apihub-graphapi": "dev"
+    "@netcracker/qubership-apihub-graphapi": "1.0.7"
   },
   "devDependencies": {
-    "@netcracker/qubership-apihub-npm-gitflow": "2.0.0",
+    "@netcracker/qubership-apihub-npm-gitflow": "2.2.0",
     "@types/json-schema": "^7.0.12",
     "@types/jest": "^29.5.2",
     "@types/js-yaml": "^4.0.5",
