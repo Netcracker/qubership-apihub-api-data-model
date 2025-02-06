@@ -8,5 +8,5 @@ Modified version of [udamir/api-model-tree](https://github.com/udamir/api-model-
 ## Installation
 
 ```bash
-yarn add @netcracker/qubership-apihub-api-data-model
+npm add @netcracker/qubership-apihub-api-data-model
 ```
