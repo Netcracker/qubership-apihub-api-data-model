@@ -1,6 +1,6 @@
 {
   "name": "@netcracker/qubership-apihub-api-data-model",
-  "version": "1.0.4-dev.1",
+  "version": "1.0.4",
   "description": "Convert JSON schema-based document into structured and simplified data tree ",
   "module": "./dist/index.es.js",
   "main": "./dist/index.cjs.js",
@@ -42,7 +42,7 @@
   "dependencies": {
     "@netcracker/qubership-apihub-json-crawl": "1.0.4",
     "@netcracker/qubership-apihub-api-unifier": "1.0.4",
-    "@netcracker/qubership-apihub-api-diff": "dev",
+    "@netcracker/qubership-apihub-api-diff": "1.1.0",
     "@netcracker/qubership-apihub-graphapi": "1.0.8"
   },
   "devDependencies": {
