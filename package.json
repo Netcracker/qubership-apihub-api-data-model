@@ -31,7 +31,7 @@
     "prebuild": "rimraf ./dist",
     "build": "vite build",
     "development:link": "npm link && npm link @netcracker/qubership-apihub-json-crawl --save && npm link @netcracker/qubership-apihub-graphapi --save && npm link @netcracker/qubership-apihub-api-unifier --save && npm link @netcracker/qubership-apihub-api-diff --save",
-    "development:unlink": "npm unlink && npm unlink @netcracker/qubership-apihub-json-crawl && npm unlink @netcracker/qubership-apihub-graphapi && npm unlink @netcracker/qubership-apihub-api-unifier && npm unlink @netcracker/qubership-apihub-api-diff",
+    "development:unlink": "npm unlink @netcracker/qubership-apihub-json-crawl --no-save && npm unlink @netcracker/qubership-apihub-graphapi --no-save && npm unlink @netcracker/qubership-apihub-api-unifier --no-save && npm unlink @netcracker/qubership-apihub-api-diff --no-save",
     "test": "jest --maxWorkers 3 --verbose",
     "test:coverage": "jest --verbose --coverage",
     "update-lock-file": "update-lock-file @netcracker"
